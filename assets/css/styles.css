@@ -372,7 +372,7 @@ img{
   margin-bottom: var(--mb-4);
 }
 .contact__input:hover{
-  background-color: #969dfc;
+  background-color: #4285f4;
 }
 .contact__button{
   display: block;
