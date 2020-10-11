@@ -234,10 +234,10 @@
                 <div class="container fluid">
                     <div class="row">
                         <div class="contact__container bd-grid">
-                            <form action="#contact" class="contact__form">
-                                <input type="text" placeholder="Nama" class="contact__input" required>
-                                <input type="email" placeholder="Email" class="contact__input" required>
-                                <textarea name="pesan" placeholder="Pesan kamu.." id="" cols="0" rows="10" class="contact__input" required></textarea>
+                            <form class="contact__form" data-netlify="true">
+                                <input type="text" placeholder="Nama" name="name" class="contact__input" required>
+                                <input type="email" placeholder="Email" name="email" class="contact__input" required>
+                                <textarea name="message" placeholder="Pesan kamu.." id="" cols="0" rows="10" class="contact__input" required></textarea>
                                 <button type="submit" class="contact__button btn btn-primary btn-sm button"><i class="fas fa-paper-plane"></i> &nbsp; Kirim</button>
                             </form>
                         </div>
