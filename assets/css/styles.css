@@ -349,9 +349,7 @@ img{
   cursor: pointer;
 }
 .work__container .skull img{
-  transition: 1s;
   height: 210px;
-  cursor: pointer;
 }
 .work__container .imageku img:hover {
   transform: scale(1.8) translateX(18%) !important;
