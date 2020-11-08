@@ -60,7 +60,7 @@ sr.reveal('.work__img',{interval: 200});
 
 
 new Typed('#typed',{
-    strings : ['I\'am Blogger','I\'am junior Web Developer','I\'am Student','Vocational High School in Bandung'],
+    strings : ['I\'am Blogger','I\'am junior Programmer','I\'am Student','Vocational High School in Bandung'],
     typeSpeed : 100,
     delaySpeed : 600,
     loop : true
