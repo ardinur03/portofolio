@@ -64,5 +64,19 @@ new Typed('#typed',{
     typeSpeed : 100,
     delaySpeed : 600,
     loop : true
-  });
+});
 
+
+
+function getCv(){
+    Swal.fire({
+        title: 'Info !!!',
+        html:'Mohon maaf karena keamanan & privasi., Untuk mendownload CV saya hubungi email: ardinurinsan03@gmail.com ' +
+             '<a href="mailto:ardinurinsan03@gmail.com">KIRIM EMAIL</a> ',
+        icon: 'warning',
+        showCancelButton: true,
+        showConfirmButton: false,
+        cancelButtonText: 'Tutup',
+        cancelButtonColor: '#787878',
+    })
+}
