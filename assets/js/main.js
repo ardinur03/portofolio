@@ -71,12 +71,12 @@ new Typed('#typed',{
 function getCv(){
     Swal.fire({
         title: 'Info !!!',
-        html:'Mohon maaf karena keamanan & privasi., Untuk mendownload CV saya hubungi email: ardinurinsan03@gmail.com ' +
-             '<a href="mailto:ardinurinsan03@gmail.com">KIRIM EMAIL</a> ',
+        html:'Mohon maaf karena <b>keamanan & privasi.</b> Untuk mendownload CV saya hubungi <br>email: <b> ardinurinsan03@gmail.com</b></br> ' +
+             '<a class="btn btn-success btn-sm" href="mailto:ardinurinsan03@gmail.com">Kirim Email</a>',
         icon: 'warning',
         showCancelButton: true,
         showConfirmButton: false,
-        cancelButtonText: 'Tutup',
-        cancelButtonColor: '#787878',
+        cancelButtonText: 'X',
+        cancelButtonColor: '#C6C6C6',
     })
 }
