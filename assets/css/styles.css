@@ -313,6 +313,11 @@ h4 {
     border-bottom-color: #2fcea5
 }
 
+#contact {
+    background-image: url('../img/awan.svg');
+    background-size: cover;
+}
+
 @media only screen and (max-width:1200px) {
     .main-timeline .timeline-icon:before {
         width: 50px;
