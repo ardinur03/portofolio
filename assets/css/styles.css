@@ -888,10 +888,17 @@ img {
 
 .footer {
     background-color: var(--second-color);
-    color: #fff;
     text-align: center;
     font-weight: var(--font-semi);
     padding: 2rem 0;
+}
+
+.footer p {
+    color: #fff;
+}
+
+#footer .text-red-ard {
+    color: rgb(255, 0, 0);
 }
 
 .footer__title {
@@ -900,7 +907,7 @@ img {
 }
 
 .footer__social {
-    margin-bottom: var(--mb-4);
+    margin-bottom: 20px;
 }
 
 .footer__icon {
